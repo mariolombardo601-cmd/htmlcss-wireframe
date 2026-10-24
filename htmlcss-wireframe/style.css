@@ -1,0 +1,43 @@
+/*resetto lo stile*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*simuliamo lo smartphone*/
+body {
+    width: 512px;
+    border: 1px dashed gray;
+}
+
+/*impostiamo l'header*/
+.header {
+    padding: 10px 20px;
+    border: 2px solid black;
+}
+
+/*impostiamo la classe content*/
+.content {
+    padding: 20px 40px;
+}
+
+/*impostiamo la classe della card*/
+.card {
+    min-height: 160px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+/*alla classe card ma solo per gli h2 margine inferiore 4px*/
+.card h2 {
+    margin-bottom: 4px;
+}
+
+/*per la classe footer*/
+.footer {
+    padding: 10px 20px;
+    border-top: 2px solid black;
+
+}
